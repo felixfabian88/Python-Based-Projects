@@ -2,7 +2,7 @@ from datetime import datetime
 #prompt bakal nanyain  ada spesifik prompt akan nanya ke user apa yang pengen diinput sebelum minta tanggal nya.
 #allow_default bakal secara otomatis akan milih hari ini, kalau gak masukin tanggal
 
-date_format = "%d=%m-%Y"
+date_format = "%d-%m-%Y"
 CATEGORIES = {"I":"Income", "E":"Expense"}
 def get_date(prompt, allow_default=False):
     date_str = input(prompt)
